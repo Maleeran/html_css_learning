@@ -1,0 +1,89 @@
+h1,h2,h3,p,li{
+	font-family: 'Courier New', Courier, monospace;
+	color: black;
+}
+
+h1,h2,h3{
+    color: rgba(32, 145, 165, 0.822);
+}
+
+h1{
+    font-size: 32px;  
+}
+
+h2{
+    font-size: 28px;
+    font-family: 'Microsoft YaHei',sans-serif; 
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Microsoft YaHei',sans-serif;  
+    line-height: 1.3;
+}
+
+li{
+    font-family: 'Microsoft YaHei', sans-serif;
+    font-size: 18px;
+}
+
+footer p{
+    font-size: 18px;
+}
+
+header{
+	background-color: #d2e1e9;
+}
+
+header p {
+    font-style: italic;
+}
+
+.link-sets{
+    color: #001724;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.top{
+    font-family: 'Microsoft YaHei',sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+main{
+	background-color: #d2e1e9;
+}
+
+aside{
+	background-color: #d2e1e9;
+	border: #3596ce 2px solid;
+}
+
+aside h2 {
+	font-size: 25px;
+}
+
+/* li:nth-child(even){
+	font-weight: bold;
+	color: #3596ce;
+} */
+
+a:link{
+	color: rgba(32, 145, 165, 0.822);
+}
+
+a:visited{
+	color: rgba(32, 145, 165, 0.822);
+}
+
+a:hover{
+	color: rgb(128, 2, 128);
+	font-weight: bold;
+	text-decoration: underline rgb(128, 2, 128);
+}
+
+a:active{
+	font-style: italic;
+}

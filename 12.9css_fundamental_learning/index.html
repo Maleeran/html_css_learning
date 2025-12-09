@@ -5,20 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>冰岛极光与温泉之旅</title>
     <!-- 这里以后专门放 link 外部 CSS -->
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
+<header class="top">
     <h1>探索冰岛的极光与温泉之旅</h1>
     <p><a href="#start">立刻开启冰岛之旅！</a></p>
+		<img src="img/极光.jpg" alt="冰岛上空绚丽的绿色极光映在雪山湖面上">
+        <p><a href="https://www.bluelagoon.com" target="_blank" rel="noopener">立即查看行程 & 预订</a></p>
 </header>
 
 <main>
-    <section>
-        <img src="img/极光.jpg" alt="冰岛上空绚丽的绿色极光映在雪山湖面上">
-        <p><a href="https://www.bluelagoon.com" target="_blank" rel="noopener">立即查看行程 & 预订</a></p>
-    </section>
-
     <section>
         <p>冰岛，这个被国家地理评为“一生必去”的地方，每年只有9月–次年4月能看到极光。<br>
         <a href="https://aurora.live" target="_blank" rel="noopener">点这里查看实时极光预报</a></p>
@@ -65,7 +63,7 @@
 
     <section>
         <h2>冰岛旅行实用链接集合</h2>
-        <ul>
+        <ul class="link-sets">
             <li>租车比价最全平台：<a href="https://www.northbound.is/" target="_blank" rel="noopener">Northbound</a>（推荐）</li>
             <li>冰岛天气实时查询：<a href="https://vedur.is" target="_blank" rel="noopener">vedur.is</a></li>
             <li>道路状况+一号公路实时路况：<a href="https://www.road.is" target="_blank" rel="noopener">road.is</a></li>
@@ -101,8 +99,10 @@
         <h2>准备好了吗？</h2>
         <p><a href="https://www.visiticeland.com/zh" target="_blank" rel="noopener">点我立刻开启冰岛之旅！</a></p>
     </section>
+</main>
 
-    <!-- 以下是锚点对应的详细内容区 -->
+<aside>
+	    <!-- 以下是锚点对应的详细内容区 -->
     <section id="Reykjavík">
         <h2>雷克雅未克首都圈</h2>
         <p>冰岛首都&最大城市，全球最北的首都，90% 的冰岛行程都从这里开始。</p>
@@ -128,10 +128,10 @@
         <h2>柯克丘费尔（Kirkjufell）</h2>
         <p>冰岛最上镜的箭头山，常出现在《权力的游戏》取景地……</p>
     </section>
-</main>
+</aside>
 
 <footer>
-    <p><a href="#top">返回顶部</a></p>
+    <p id="copyright"><a href="#top">返回顶部</a></p>
     <p>© 2025 冰岛旅行练习页面 · 仅用于学习HTML/CSS</p>
 </footer>
 

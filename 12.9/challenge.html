@@ -1,35 +1,141 @@
-<article>
-  <h2>Hoka One One Men's Clifton 10 </h2>
-  <img 
-    src="https://www.shutterstock.com/image-photo/shanghaichinajuly-16th-2025-hoka-clifton-260nw-2654246211.jpg"
-    alt="Hoka One One Men's Clifton 10">
-    
-  <p><strong>$120.00</strong></p> 
-  <p>
-    <h3>Advantages</h3>
+<article class="clifton-card">
+  <h2>Hoka Clifton 10 – Men's</h2>
+  
+  <div class="product-image">
+    <img 
+      src="https://www.shutterstock.com/image-photo/shanghaichinajuly-16th-2025-hoka-clifton-260nw-2654246211.jpg"
+      alt="Hoka Clifton 10 running shoe in white">
+  </div>
+
+  <div class="price">$120.00</div>
+
+  <section class="highlights">
+    <h3>Why You'll Love It</h3>
     <ul>
-      <li>Ultra-plush</li>
-      <li>Effortlessly light</li>
-      <li>Incredibly cushioned</li>
-      <li>Buttery-smooth</li>
-      <li>Cloud-like comfort</li>
+      <li>Ultra-plush cushioning</li>
+      <li>Feather-light feel</li>
+      <li>Cloud-like comfort all day</li>
+      <li>Buttery-smooth ride</li>
+      <li>Perfect balance of soft & responsive</li>
     </ul>
-  </p>
-  <p>These capture the Clifton 10’s signature vibe: ridiculously comfortable, surprisingly light, and sleek enough to wear all day. Perfect for HOKA’s marketing tone!</p>
-  <p>
-    <a href="https://www.hoka.com/en/us/mens-everyday-running-gear"> 
-      More information &rarr;
-    <a>
-  </p>
-  <p>
-    <h3>Best for</h3>
+  </section>
+
+  <section class="best-for">
+    <h3>Best For</h3>
     <ul>
-      <li>Easy daily miles</li>
-      <li>Long walks and standing all day</li>
-      <li>Recovery runs</li>
-      <li>Runners who love max cushion but hate heavy shoes</li>
-      <li>Anyone chasing that “walking on clouds” feeling</li>
+      <li>Daily training & easy miles</li>
+      <li>All-day walking or standing</li>
+      <li>Recovery days</li>
+      <li>Max-cushion lovers</li>
+      <li>That “walking on clouds” vibe</li>
     </ul>
-  </p>
-  <button>Add to cart</button>
+  </section>
+
+  <footer class="actions">
+    <button class="add-to-cart">Add to Cart</button>
+    <a href="https://www.hoka.com/en/us/mens-everyday-running-gear" class="more-info">
+      More details →
+    </a>
+  </footer>
 </article>
+
+<style>
+.clifton-card {
+  max-width: 380px;
+  margin: 2rem auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+.clifton-card:hover { transform: translateY(-4px); }
+
+.product-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e63946;
+  text-align: center;
+  padding: 0.5rem 0;
+  background: #f8f9fa;
+}
+
+h2 {
+  margin: 0;
+  padding: 1.5rem 1.5rem 0;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #1d3557;
+}
+
+h3 {
+  margin: 1.2rem 0 0.8rem;
+  font-size: 1.15rem;
+  color: #2b2d42;
+}
+
+section {
+  padding: 0 1.5rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 0.45rem 0;
+  position: relative;
+  padding-left: 1.6rem;
+  color: #444;
+}
+
+ul li::before {
+  content: "✓";
+  color: #06d6a0;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.actions {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.add-to-cart {
+  background: #1d3557;
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-to-cart:hover {
+  background: #14213d;
+}
+
+.more-info {
+  text-align: center;
+  color: #457b9d;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.more-info:hover { text-decoration: underline; }
+</style>
